@@ -1,0 +1,12 @@
+body {
+ background-color: #030b22;
+ color: #ffffff;
+ font-family : Arial;
+}
+h1 {
+	font-family: Arial;
+}
+a:link	{	color: #FFFFFF		}
+a:visited	{	color: #FFFFFF		}
+a:hover	{	color: #FFFF00		}
+a:active	{	color: #FFFFFF		}
