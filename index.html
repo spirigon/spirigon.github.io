@@ -1,8 +1,12 @@
 <html>
 <head>
   <title>say it loudly and proudly</title>
-  <audio src="stuff/mus1.mp3"autoplay volume="-500"></audio>
+  <audio id="music" src="stuff/mus1.mp3"autoplay volume="-500"></audio>
   <au dio src="..stuff/mus2.mp3">
+<script>
+  var audio = document.getElementById("music");
+  audio.volume = 0.5;
+</script>
   <!-- In the beginning was the Word -->
   <!-- And then water became wine -->
   <LINK REL="stylesheet" TYPE="text/css" HREF="css/style.css" />
